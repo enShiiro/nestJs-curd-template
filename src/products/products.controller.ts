@@ -7,9 +7,10 @@ import {
   Patch,
   Delete,
 } from '@nestjs/common';
+import { ApiUseTags } from '@nestjs/swagger' 
 
 import { ProductsService } from './products.service';
-
+@ApiUseTags('Products')
 @Controller('products')
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
