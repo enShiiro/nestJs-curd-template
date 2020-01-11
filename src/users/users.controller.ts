@@ -7,7 +7,7 @@ export class UsersController {
 
 
     @Get()
-    getUser() {
+    getUsers() {
       return 'working get user';
     }
     
