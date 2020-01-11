@@ -7,7 +7,7 @@ export class UsersController {
 
 
     @Get()
-    getAllProducts() {
+    getUser() {
       return 'working get user';
     }
     
